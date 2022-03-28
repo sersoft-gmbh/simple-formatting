@@ -60,9 +60,9 @@ jobs:
         action: [ test ]
         destination:
           - platform=macOS
-          - platform=iOS Simulator,OS=latest,name=iPhone 11 Pro
-          - platform=iOS Simulator,OS=latest,name=iPad Pro (11-inch) (2nd generation)
-          - platform=tvOS Simulator,OS=latest,name=Apple TV 4K
+          # - platform=iOS Simulator,OS=latest,name=iPhone 11 Pro
+          # - platform=iOS Simulator,OS=latest,name=iPad Pro (11-inch) (2nd generation)
+          # - platform=tvOS Simulator,OS=latest,name=Apple TV 4K
         # parallel-testing-enabled: [true]
         # enable-code-coverage: [true]
         # Watch currently doesn't work because there's no XCTest on watchOS

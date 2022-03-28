@@ -1,4 +1,5 @@
 #include <assert.h>
+#include <stdint.h>
 #include <vector>
 #include <unicode/uvernum.h>
 #include <unicode/utypes.h>
@@ -63,7 +64,7 @@ CICUFormattingResult _cicu_formatWithNumericMeasureFormat(CICUTimeComponents tim
 
     icu::UnicodeString result;
     icu::FieldPosition pos;
-    measureFormat.formatMeasures(measures.data(), measures.size(), result, pos, status);
+    measureFormat.formatMeasures(measures.data(), (int32_t)measures.size(), result, pos, status);
     return _cicu_makeResultFromUnicodeString(status, result);
 }
 

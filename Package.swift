@@ -53,7 +53,10 @@ let package = Package(
             dependencies: ["CICUShims"]),
         .testTarget(
             name: "SimpleDurationFormattingTests",
-            dependencies: ["SimpleDurationFormatting"]),
+            dependencies: [
+                "CICUShims",
+                "SimpleDurationFormatting",
+            ]),
     ],
     cxxLanguageStandard: .cxx14
 )
