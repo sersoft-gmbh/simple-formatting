@@ -1,0 +1,4 @@
+module CICUI18N [system] {
+    umbrella header "CICUI18N.h"
+    link "icui18n"
+}

@@ -1,0 +1,4 @@
+module CICUData [system] {
+    umbrella header "CICUData.h"
+    link "icudata"
+}

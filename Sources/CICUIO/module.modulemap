@@ -1,0 +1,4 @@
+module CICUIO [system] {
+    umbrella header "CICUIO.h"
+    link "icuio"
+}

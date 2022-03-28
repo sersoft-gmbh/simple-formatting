@@ -1,0 +1,4 @@
+module CICUCommon [system] {
+    umbrella header "CICUCommon.h"
+    link "icuuc"
+}
