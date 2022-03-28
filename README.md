@@ -16,7 +16,7 @@ Add the following dependency to your `Package.swift`:
 
 ## Compatibility
 
-- For Swift as of version 5.5, use version 1.x.y.
+-   For Swift as of version 5.5, use version 1.x.y.
 
 ## Usage
 
