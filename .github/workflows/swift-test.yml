@@ -79,7 +79,7 @@ jobs:
       - uses: sersoft-gmbh/xcodebuild-action@v1.8.0
         with:
           spm-package: './'
-          scheme: simple-formatting-Package
+          scheme: simple-formatting
           destination: ${{matrix.destination}}
           action: ${{matrix.action}}
           parallel-testing-enabled: true

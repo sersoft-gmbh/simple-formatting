@@ -1,4 +1,6 @@
+#include <assert.h>
 #include <vector>
+#include <unicode/uvernum.h>
 #include <unicode/utypes.h>
 #include <unicode/unistr.h>
 #include <unicode/locid.h>
@@ -6,6 +8,8 @@
 #include <unicode/measfmt.h>
 //#include <unicode/msgfmt.h>
 //#include <unicode/rbnf.h>
+
+#define CICU_CAN_USE_NUMBER_FORMATTER (U_ICU_VERSION_MAJOR_NUM >= 67)
 
 #define CICU_NO_SWIFT_ANNOTATIONS
 #include "include/DurationFormat.h"
@@ -25,10 +29,12 @@ CICUFormattingResult _cicu_makeResultFromUnicodeString(UErrorCode status, icu::U
     return CICUFormattingResultMake(status, coutBuf);
 }
 
-CICUFormattingResult _cicu_formatWithNumericMeasureFormat(CICUTimeComponents timeComponents, icu::Locale locale) {
+CICUFormattingResult _cicu_formatWithNumericMeasureFormat(CICUTimeComponents timeComponents,
+                                                          icu::Locale locale,
+                                                          UMeasureFormatWidth measureFormatWidth) {
     UErrorCode status = U_ZERO_ERROR;
 
-    auto measureFormat = icu::MeasureFormat(locale, UMEASFMT_WIDTH_NUMERIC, status);
+    auto measureFormat = icu::MeasureFormat(locale, measureFormatWidth, status);
     if (U_FAILURE(status)) return CICUFormattingResultMakeFailure(status);
 
     std::vector<icu::Measure> measures;
@@ -61,7 +67,10 @@ CICUFormattingResult _cicu_formatWithNumericMeasureFormat(CICUTimeComponents tim
     return _cicu_makeResultFromUnicodeString(status, result);
 }
 
-CICUFormattingResult _cicu_formatWithNumberFormatter(CICUTimeComponents components, icu::Locale locale, bool formatShort) {
+#if CICU_CAN_USE_NUMBER_FORMATTER
+CICUFormattingResult _cicu_formatWithNumberFormatter(CICUTimeComponents components,
+                                                     icu::Locale locale,
+                                                     UNumberUnitWidth unitWidth) {
     UErrorCode status = U_ZERO_ERROR;
 
     double formattable;
@@ -103,13 +112,14 @@ CICUFormattingResult _cicu_formatWithNumberFormatter(CICUTimeComponents componen
     auto numberFormatter = icu::number::NumberFormatter::withLocale(locale)
 //        .usage("hour-and-minute-and-second")
         .unit(unit)
-        .unitWidth(formatShort ? UNUM_UNIT_WIDTH_SHORT : UNUM_UNIT_WIDTH_NARROW);
+        .unitWidth(unitWidth);
 
     auto formattedNum = numberFormatter.formatDouble(formattable, status);
     if (U_FAILURE(status)) return CICUFormattingResultMakeFailure(status);
     auto result = formattedNum.toString(status);
     return _cicu_makeResultFromUnicodeString(status, result);
 }
+#endif
 
 CICUFormattingResult cicu_formatDuration(CICUTimeComponents components,
                                          cicu_nonnull const char * CICUNonnull localeIdentifier,
@@ -117,11 +127,18 @@ CICUFormattingResult cicu_formatDuration(CICUTimeComponents components,
     auto locale = icu::Locale(localeIdentifier);
     switch (width) {
         case CICUDurationFormatWidthNumeric:
-            return _cicu_formatWithNumericMeasureFormat(components, locale);
+            return _cicu_formatWithNumericMeasureFormat(components, locale, UMEASFMT_WIDTH_NUMERIC);
+#if CICU_CAN_USE_NUMBER_FORMATTER
         case CICUDurationFormatWidthNarrow:
-            return _cicu_formatWithNumberFormatter(components, locale, false);
+            return _cicu_formatWithNumberFormatter(components, locale, UNUM_UNIT_WIDTH_NARROW);
         case CICUDurationFormatWidthShort:
-            return _cicu_formatWithNumberFormatter(components, locale, true);
+            return _cicu_formatWithNumberFormatter(components, locale, UNUM_UNIT_WIDTH_SHORT);
+#else
+        case CICUDurationFormatWidthNarrow:
+            return _cicu_formatWithNumericMeasureFormat(components, locale, UMEASFMT_WIDTH_NARROW);
+        case CICUDurationFormatWidthShort:
+            return _cicu_formatWithNumericMeasureFormat(components, locale, UMEASFMT_WIDTH_SHORT);
+#endif
     }
 }
 

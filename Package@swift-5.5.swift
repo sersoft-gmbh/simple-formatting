@@ -16,28 +16,28 @@ let package = Package(
             name: "CICUCommon",
             pkgConfig: "icu-uc",
             providers: [
-                .apt(["icu4c"]),
+                .apt(["libicu-dev"]),
                 .brew(["icu4c"]),
             ]),
         .systemLibrary(
             name: "CICUData",
             pkgConfig: "icu-data",
             providers: [
-                .apt(["icu4c"]),
+                .apt(["libicu-dev"]),
                 .brew(["icu4c"]),
             ]),
         .systemLibrary(
             name: "CICUI18N",
             pkgConfig: "icu-i18n",
             providers: [
-                .apt(["icu4c"]),
+                .apt(["libicu-dev"]),
                 .brew(["icu4c"]),
             ]),
         .systemLibrary(
             name: "CICUIO",
             pkgConfig: "icu-io",
             providers: [
-                .apt(["icu4c"]),
+                .apt(["libicu-dev"]),
                 .brew(["icu4c"]),
             ]),
         .target(
