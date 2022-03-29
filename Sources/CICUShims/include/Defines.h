@@ -68,7 +68,7 @@
 #endif
 
 #ifndef cicu_swift_newtype
-#if __has_attribute(__swift_newtype__)
+#if __has_attribute(__swift_newtype__) && !defined(CICU_NO_SWIFT_ANNOTATIONS)
 #define cicu_swift_newtype(type) __attribute__((__swift_newtype__(type)))
 #else
 #define cicu_swift_newtype(type)

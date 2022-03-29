@@ -6,8 +6,8 @@ import PackageDescription
 let package = Package(
     name: "simple-formatting",
     products: [
-        .library(name: "SimpleDurationFormatting",
-                 targets: ["SimpleDurationFormatting"]),
+        .library(name: "DurationFormatting",
+                 targets: ["DurationFormatting"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -49,13 +49,13 @@ let package = Package(
 //                "CICUIO",
             ]),
         .target(
-            name: "SimpleDurationFormatting",
+            name: "DurationFormatting",
             dependencies: ["CICUShims"]),
         .testTarget(
-            name: "SimpleDurationFormattingTests",
+            name: "DurationFormattingTests",
             dependencies: [
                 "CICUShims",
-                "SimpleDurationFormatting",
+                "DurationFormatting",
             ]),
     ],
     cxxLanguageStandard: .cxx14

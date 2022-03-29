@@ -21,12 +21,12 @@ _CICUResultTypeImpl(Formatting, const char * CICUNonnull, true);
 
 CICUFormattingResult _cicu_makeResultFromUnicodeString(UErrorCode status, icu::UnicodeString str) {
     if (U_FAILURE(status)) return CICUFormattingResultMakeFailure(status);
-    // FIXME: Is there a way to use const char directly?
+    // FIXME: Is there a way to use (const) char directly?
     std::string outBuf;
     str.toUTF8String(outBuf);
     char *coutBuf = (char *)calloc(outBuf.length() + 1, sizeof(char));
     auto copied = outBuf.copy(coutBuf, outBuf.length());
-    assert(copied == outBuf.length() || "Incomplete string copy!");
+    assert(copied == outBuf.length() && "Incomplete string copy!");
     return CICUFormattingResultMake(status, coutBuf);
 }
 

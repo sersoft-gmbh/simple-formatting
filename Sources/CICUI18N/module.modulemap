@@ -1,4 +1,5 @@
 module CICUI18N [system] {
+    requires cplusplus11
     umbrella header "CICUI18N.h"
     link "icui18n"
 }

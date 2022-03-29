@@ -1,10 +1,10 @@
 import XCTest
 import CICUShims
-import SimpleDurationFormatting
+import DurationFormatting
 
-final class SimpleDurationFormattingTests: XCTestCase {
+final class DurationFormattingTests: XCTestCase {
     private func _testTimeComponents(_ timeComponents: TimeComponents,
-                                     with formatter: SimpleDurationFormatter,
+                                     with formatter: DurationFormatter,
                                      expecting result: String,
                                      file: StaticString = #filePath,
                                      line: UInt = #line) {

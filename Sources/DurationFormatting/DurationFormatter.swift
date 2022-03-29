@@ -34,7 +34,7 @@ public struct TimeComponents {
     }
 }
 
-public struct SimpleDurationFormatter {
+public struct DurationFormatter {
     public enum Width {
         case numeric, short, narrow
 

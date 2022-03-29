@@ -1,4 +1,5 @@
 module CICUIO [system] {
+    requires cplusplus11
     umbrella header "CICUIO.h"
     link "icuio"
 }

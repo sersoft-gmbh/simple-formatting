@@ -1,4 +1,5 @@
 module CICUData [system] {
+    requires cplusplus11
     umbrella header "CICUData.h"
     link "icudata"
 }
