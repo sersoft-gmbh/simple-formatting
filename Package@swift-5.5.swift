@@ -20,13 +20,6 @@ let package = Package(
                 .brew(["icu4c"]),
             ]),
         .systemLibrary(
-            name: "CICUData",
-            pkgConfig: "icu-data",
-            providers: [
-                .apt(["libicu-dev"]),
-                .brew(["icu4c"]),
-            ]),
-        .systemLibrary(
             name: "CICUI18N",
             pkgConfig: "icu-i18n",
             providers: [
@@ -44,7 +37,6 @@ let package = Package(
             name: "CICUShims",
             dependencies: [
                 "CICUCommon",
-                "CICUData",
                 "CICUI18N",
 //                "CICUIO",
             ]),
