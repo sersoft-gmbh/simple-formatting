@@ -1,6 +1,6 @@
 module CICUCommon [system] {
-    requires cplusplus11
     umbrella header "CICUCommon.h"
     link "icuuc"
     link "icudata"
+//    requires cplusplus11
 }
