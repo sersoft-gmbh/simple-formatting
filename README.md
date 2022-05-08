@@ -1,9 +1,10 @@
 # Simple Formatting
+
 [![GitHub release](https://img.shields.io/github/release/sersoft-gmbh/simple-formatting.svg?style=flat)](https://github.com/sersoft-gmbh/simple-formatting/releases/latest)
 ![Tests](https://github.com/sersoft-gmbh/simple-formatting/workflows/Tests/badge.svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b5e1ed021b0b4910ac35c3cf2f8abaea)](https://www.codacy.com/gh/sersoft-gmbh/simple-formatting/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sersoft-gmbh/simple-formatting&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/sersoft-gmbh/simple-formatting/branch/main/graph/badge.svg?token=tGeXRgEvBs)](https://codecov.io/gh/sersoft-gmbh/simple-formatting)
-[![jazzy](https://raw.githubusercontent.com/sersoft-gmbh/simple-formatting/gh-pages/badge.svg?sanitize=true)](https://sersoft-gmbh.github.io/simple-formatting)
+[![Docs](https://img.shields.io/badge/-documentation-informational)](https://sersoft-gmbh.github.io/simple-formatting)
 
 A collection of simple formatters for Swift using the [ICU4C](https://unicode-org.github.io/icu) library.
 
