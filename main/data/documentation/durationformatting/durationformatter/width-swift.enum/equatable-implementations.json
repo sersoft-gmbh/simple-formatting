@@ -1,0 +1,198 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting",
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter",
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "DurationFormatting"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://DurationFormatting/documentation/DurationFormatting": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DurationFormatting",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DurationFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DurationFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DurationFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/durationformatter"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/Width-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Width"
+    }
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Width"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DurationFormatter.Width",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/Width-swift.enum/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/!=(_:_:)"
+}
+}
+}

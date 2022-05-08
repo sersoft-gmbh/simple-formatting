@@ -1,0 +1,253 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting",
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/width-swift.property"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18DurationFormatting0A9FormatterV5widthAC5WidthOvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "width"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:18DurationFormatting0A9FormatterV",
+        "text" : "DurationFormatter"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:18DurationFormatting0A9FormatterV5WidthO",
+        "text" : "Width"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DurationFormatting"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "width"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "width"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:18DurationFormatting0A9FormatterV",
+              "text" : "DurationFormatter"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:18DurationFormatting0A9FormatterV5WidthO",
+              "text" : "Width"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/durationformatting\/durationformatter\/width-swift.property"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://DurationFormatting/documentation/DurationFormatting": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DurationFormatting",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DurationFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DurationFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DurationFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/durationformatter"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/Width-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Width"
+    }
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Width"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DurationFormatter.Width",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/width-swift.property": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "width"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18DurationFormatting0A9FormatterV",
+      "text" : "DurationFormatter"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18DurationFormatting0A9FormatterV5WidthO",
+      "text" : "Width"
+    }
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/width-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "width",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/durationformatter\/width-swift.property"
+}
+}
+}
