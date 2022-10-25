@@ -1,7 +1,7 @@
 import Foundation
 @_implementationOnly import CICUShims
 
-public struct TimeComponents {
+public struct TimeComponents: Sendable {
     public var hour: Int?
     public var minute: Int?
     public var second: Int?
@@ -35,7 +35,7 @@ public struct TimeComponents {
 }
 
 public struct DurationFormatter {
-    public enum Width {
+    public enum Width: Sendable {
         case numeric, short, narrow
 
         fileprivate var _cicuFormatWidth: CICUDurationFormatWidth {
