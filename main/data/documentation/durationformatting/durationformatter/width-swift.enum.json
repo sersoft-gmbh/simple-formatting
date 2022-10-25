@@ -77,7 +77,8 @@
     {
       "identifiers" : [
         "doc:\/\/DurationFormatting\/SQ",
-        "doc:\/\/DurationFormatting\/SH"
+        "doc:\/\/DurationFormatting\/SH",
+        "doc:\/\/DurationFormatting\/s8SendableP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -291,6 +292,11 @@
   "title" : "DurationFormatter.Width.short",
   "type" : "topic",
   "url" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/short"
+},
+"doc://DurationFormatting/s8SendableP": {
+  "identifier" : "doc:\/\/DurationFormatting\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }
 }
