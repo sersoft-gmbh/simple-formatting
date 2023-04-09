@@ -119,6 +119,15 @@
           {
             "children" : [
               {
+                "title" : "Operators",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/timecomponents\/_(_:_:)-5wr1t",
+                "title" : "static func < (TimeComponents, TimeComponents) -> Bool",
+                "type" : "op"
+              },
+              {
                 "title" : "Initializers",
                 "type" : "groupMarker"
               },
@@ -155,6 +164,77 @@
                 "path" : "\/documentation\/durationformatting\/timecomponents\/second",
                 "title" : "var second: Int?",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'...(_:)-55t9n",
+                    "title" : "static func ... (Self) -> PartialRangeFrom<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'...(_:)-64cz1",
+                    "title" : "static func ... (Self) -> PartialRangeThrough<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'...(_:_:)",
+                    "title" : "static func ... (Self, Self) -> ClosedRange<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'.._(_:)",
+                    "title" : "static func ..< (Self) -> PartialRangeUpTo<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'.._(_:_:)",
+                    "title" : "static func ..< (Self, Self) -> Range<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/_(_:_:)-80mjm",
+                    "title" : "static func > (Self, Self) -> Bool",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/_=(_:_:)-4tdxf",
+                    "title" : "static func >= (Self, Self) -> Bool",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/_=(_:_:)-adjp",
+                    "title" : "static func <= (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/durationformatting\/timecomponents\/comparable-implementations",
+                "title" : "Comparable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/durationformatting\/timecomponents\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/durationformatting\/timecomponents",

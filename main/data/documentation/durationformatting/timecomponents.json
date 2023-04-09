@@ -75,6 +75,9 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/DurationFormatting\/SL",
+        "doc:\/\/DurationFormatting\/SQ",
+        "doc:\/\/DurationFormatting\/SH",
         "doc:\/\/DurationFormatting\/s8SendableP"
       ],
       "kind" : "relationships",
@@ -93,6 +96,12 @@
   "topicSections" : [
     {
       "identifiers" : [
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)-5wr1t"
+      ],
+      "title" : "Operators"
+    },
+    {
+      "identifiers" : [
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/init(dateComponents:)",
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/init(hour:minute:second:)"
       ],
@@ -106,6 +115,14 @@
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/second"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/Comparable-Implementations",
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
     }
   ],
   "variants" : [
@@ -122,6 +139,21 @@
   ]
 , 
 "references": {
+"doc://DurationFormatting/SH": {
+  "identifier" : "doc:\/\/DurationFormatting\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://DurationFormatting/SL": {
+  "identifier" : "doc:\/\/DurationFormatting\/SL",
+  "title" : "Swift.Comparable",
+  "type" : "unresolvable"
+},
+"doc://DurationFormatting/SQ": {
+  "identifier" : "doc:\/\/DurationFormatting\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
 "doc://DurationFormatting/documentation/DurationFormatting": {
   "abstract" : [
 
@@ -163,6 +195,92 @@
   "title" : "TimeComponents",
   "type" : "topic",
   "url" : "\/documentation\/durationformatting\/timecomponents"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/Comparable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/Comparable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Comparable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/timecomponents\/comparable-implementations"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/timecomponents\/equatable-implementations"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/_(_:_:)-5wr1t": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "<"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18DurationFormatting14TimeComponentsV",
+      "text" : "TimeComponents"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18DurationFormatting14TimeComponentsV",
+      "text" : "TimeComponents"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)-5wr1t",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "<(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/timecomponents\/_(_:_:)-5wr1t"
 },
 "doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/dateComponents": {
   "abstract" : [
