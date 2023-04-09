@@ -1,41 +1,12 @@
+#if swift(>=5.7) && canImport(Darwin)
 import Foundation
+#else
+@preconcurrency import Foundation
+#endif
 @_implementationOnly import CICUShims
 
-public struct TimeComponents: Sendable {
-    public var hour: Int?
-    public var minute: Int?
-    public var second: Int?
-
-    @inlinable
-    public var dateComponents: DateComponents {
-        .init(hour: hour, minute: minute, second: second)
-    }
-
-    public init(hour: Int? = nil, minute: Int? = nil, second: Int? = nil) {
-        self.hour = hour
-        self.minute = minute
-        self.second = second
-    }
-
-    @inlinable
-    public init(dateComponents: DateComponents) {
-        self.init(hour: dateComponents.hour,
-                  minute: dateComponents.minute,
-                  second: dateComponents.second)
-    }
-
-    fileprivate func _cicuTimeComponents(nullingZeros: Bool) -> CICUTimeComponents {
-        func _component(for value: Int?) -> CICUTimeComponent {
-            value.map(numericCast).map(nullingZeros ? CICUTimeComponent.init(nullingZeroOf:) : CICUTimeComponent.init(_:)) ?? .null
-        }
-        return .init(hours: _component(for: hour),
-                     minutes: _component(for: minute),
-                     seconds: _component(for: second))
-    }
-}
-
-public struct DurationFormatter {
-    public enum Width: Sendable {
+public struct DurationFormatter: Sendable {
+    public enum Width: Sendable, Hashable {
         case numeric, short, narrow
 
         fileprivate var _cicuFormatWidth: CICUDurationFormatWidth {
