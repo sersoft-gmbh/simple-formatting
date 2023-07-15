@@ -1,5 +1,4 @@
 import XCTest
-import CICUShims
 import DurationFormatting
 
 final class DurationFormattingTests: XCTestCase {
@@ -53,17 +52,17 @@ final class DurationFormattingTests: XCTestCase {
 
     func testFullComponentsWithDefaultsInDE_DE() {
         _testFullComponentsWithDefaults(inLocale: "de_DE",
-                                        expecting: CICUMajorVersion > 60 ? "3 Std., 24 Min. und 42 Sek." : "3 Std., 24 Min. und 42 s")
+                                        expecting: "3 Std., 24 Min. und 42 Sek.")
     }
 
     func testFullComponentsWithDefaultsInFR_FR() {
         _testFullComponentsWithDefaults(inLocale: "fr_FR",
-                                        expecting: CICUMajorVersion > 60 ? "3h 24min 42s" : "3h 24 min 42s")
+                                        expecting: "3h 24min 42s")
     }
 
     func testFullComponentsWithDefaultsInES_ES() {
         _testFullComponentsWithDefaults(inLocale: "es_ES",
-                                        expecting: CICUMajorVersion > 60 && CICUMajorVersion < 67 ? "3 h 24 min 42 s" : "3h 24min 42s")
+                                        expecting: "3h 24min 42s")
     }
 
     func testFullComponentsWithDefaultsInIT_IT() {
@@ -76,12 +75,12 @@ final class DurationFormattingTests: XCTestCase {
 
     func testFullComponentsWithDefaultsInFR_CH() {
         _testFullComponentsWithDefaults(inLocale: "fr_CH",
-                                        expecting: CICUMajorVersion > 60 ? "3h 24min 42s" : "3h 24 min 42s")
+                                        expecting: "3h 24min 42s")
     }
 
     func testFullComponentsWithDefaultsInDE_CH() {
         _testFullComponentsWithDefaults(inLocale: "de_CH",
-                                        expecting: CICUMajorVersion > 60 ? "3 Std., 24 Min. und 42 Sek." : "3 Std., 24 Min. und 42 s")
+                                        expecting: "3 Std., 24 Min. und 42 Sek.")
     }
 
     // MARK: Partial Components
@@ -91,7 +90,7 @@ final class DurationFormattingTests: XCTestCase {
 
     func testPartialComponentsWithDefaultsInDE_DE() {
         _testPartialComponentsWithDefaults(inLocale: "de_DE",
-                                           expecting: CICUMajorVersion > 60 ? "3 Std., 42 Sek." : "3 Std., 42 s")
+                                           expecting: "3 Std., 42 Sek.")
     }
 
     func testPartialComponentsWithDefaultsInFR_FR() {
@@ -100,7 +99,7 @@ final class DurationFormattingTests: XCTestCase {
 
     func testPartialComponentsWithDefaultsInES_ES() {
         _testPartialComponentsWithDefaults(inLocale: "es_ES",
-                                           expecting: CICUMajorVersion > 60 && CICUMajorVersion < 67 ? "3 h 42 s" : "3h 42s")
+                                           expecting: "3h 42s")
     }
 
     func testPartialComponentsWithDefaultsInIT_IT() {
@@ -117,7 +116,7 @@ final class DurationFormattingTests: XCTestCase {
 
     func testPartialComponentsWithDefaultsInDE_CH() {
         _testPartialComponentsWithDefaults(inLocale: "de_CH",
-                                           expecting: CICUMajorVersion > 60 ? "3 Std., 42 Sek." : "3 Std., 42 s")
+                                           expecting: "3 Std., 42 Sek.")
     }
 
     // MARK: Partial Components Not Dropping Zeros
@@ -127,17 +126,17 @@ final class DurationFormattingTests: XCTestCase {
 
     func testPartialComponentsNotDroppingZerosInDE_DE() {
         _testPartialComponentsNotDroppingZeros(inLocale: "de_DE",
-                                               expecting: CICUMajorVersion > 60 ? "3 Std., 0 Min. und 42 Sek." : "3 Std., 0 Min. und 42 s")
+                                               expecting: "3 Std., 0 Min. und 42 Sek.")
     }
 
     func testPartialComponentsNotDroppingZerosInFR_FR() {
         _testPartialComponentsNotDroppingZeros(inLocale: "fr_FR",
-                                               expecting: CICUMajorVersion > 60 ? "3h 0min 42s" : "3h 0 min 42s")
+                                               expecting: "3h 0min 42s")
     }
 
     func testPartialComponentsNotDroppingZerosInES_ES() {
         _testPartialComponentsNotDroppingZeros(inLocale: "es_ES",
-                                               expecting: CICUMajorVersion > 60 && CICUMajorVersion < 67 ? "3 h 0 min 42 s" : "3h 0min 42s")
+                                               expecting: "3h 0min 42s")
     }
 
     func testPartialComponentsNotDroppingZerosInIT_IT() {
@@ -150,11 +149,11 @@ final class DurationFormattingTests: XCTestCase {
 
     func testPartialComponentsNotDroppingZerosInFR_CH() {
         _testPartialComponentsNotDroppingZeros(inLocale: "fr_CH",
-                                               expecting: CICUMajorVersion > 60 ? "3h 0min 42s" : "3h 0 min 42s")
+                                               expecting: "3h 0min 42s")
     }
 
     func testPartialComponentsNotDroppingZerosInDE_CH() {
         _testPartialComponentsNotDroppingZeros(inLocale: "de_CH",
-                                               expecting: CICUMajorVersion > 60 ? "3 Std., 0 Min. und 42 Sek." : "3 Std., 0 Min. und 42 s")
+                                               expecting: "3 Std., 0 Min. und 42 Sek.")
     }
 }

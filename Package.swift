@@ -4,6 +4,7 @@
 import PackageDescription
 
 let swiftSettings: Array<SwiftSetting> = [
+    .interoperabilityMode(.Cxx),
     .enableUpcomingFeature("ConciseMagicFile"),
     .enableUpcomingFeature("ExistentialAny"),
     .enableUpcomingFeature("BareSlashRegexLiterals"),
@@ -55,14 +56,16 @@ let package = Package(
             ]),
         .target(
             name: "DurationFormatting",
-            dependencies: ["CICUShims"],
+            dependencies: [
+                "CICUCommon",
+                "CICUI18N",
+//                "CICUIO",
+                "CICUShims",
+            ],
             swiftSettings: swiftSettings),
         .testTarget(
             name: "DurationFormattingTests",
-            dependencies: [
-                "CICUShims",
-                "DurationFormatting",
-            ],
+            dependencies: ["DurationFormatting"],
             swiftSettings: swiftSettings),
     ],
     cxxLanguageStandard: .cxx14
