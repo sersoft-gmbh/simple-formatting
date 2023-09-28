@@ -128,7 +128,7 @@ public struct DurationFormatter: Sendable {
             identifier += "second"
         }
 
-        let unit = measureUnitForIdentifier(identifier, &status)
+        let unit = CICUShims.measureUnitForIdentifier(identifier, &status)
         // This currently fails. Likely because the string is somehow incorrectly constructed.
         // let unit = icu.MeasureUnit.forIdentifier(icu.StringPiece(identifier), &status)
         guard !status.isFailure else { return nil }
@@ -139,7 +139,7 @@ public struct DurationFormatter: Sendable {
             .unit(unit)
             .unitWidth(width)
 
-        let formatted = formatDoubleWithNumberFormatter(formatter, formattable, &status)
+        let formatted = CICUShims.formatDoubleWithNumberFormatter(formatter, formattable, &status)
         guard !status.isFailure else { return nil }
 
         let result = formatted.toString(&status)

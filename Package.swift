@@ -68,5 +68,5 @@ let package = Package(
             dependencies: ["DurationFormatting"],
             swiftSettings: swiftSettings),
     ],
-    cxxLanguageStandard: .cxx14
+    cxxLanguageStandard: .cxx17
 )
