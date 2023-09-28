@@ -79,7 +79,10 @@
     ],
     "modules" : [
       {
-        "name" : "DurationFormatting"
+        "name" : "DurationFormatting",
+        "relatedModules" : [
+          "Swift"
+        ]
       }
     ],
     "role" : "symbol",
