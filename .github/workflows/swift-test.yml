@@ -31,6 +31,8 @@ jobs:
       os: ${{ matrix.os }}
       max-swift-version: ${{ needs.variables.outputs.max-supported-swift-version }}
       swift-version-offset: ${{ matrix.swift-version-offset }}
+      # This is a workaround since Swift ships ICU headers that aren't aligned with the installed ICU package.
+      container-before-run: apt-get update -qq && apt-get -q install -y --reinstall libicu-dev
       fail-if-codecov-fails: ${{ fromJson(needs.variables.outputs.fail-if-codecov-fails) }}
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

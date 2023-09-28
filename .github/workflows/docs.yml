@@ -24,3 +24,5 @@ jobs:
       organisation: ${{ github.repository_owner }}
       repository: ${{ github.event.repository.name }}
       pages-branch: gh-pages
+      # This is a workaround since Swift ships ICU headers that aren't aligned with the installed ICU package.
+      container-before-run: apt-get update -qq && apt-get -q install -y --reinstall libicu-dev
