@@ -1,5 +1,5 @@
 import Foundation
-@_implementationOnly import CICUShims
+package import CICUShims
 
 fileprivate extension CICUTimeComponent {
     func value(droppingZero dropZero: Bool) -> Int? {
@@ -48,9 +48,6 @@ public struct TimeComponents: Hashable, Comparable, Sendable {
     }
 
     public static func <(lhs: Self, rhs: Self) -> Bool {
-        guard lhs != rhs else { return false }
-        return (lhs.hour ?? 0, lhs.minute ?? 0, lhs.second ?? 0)
-        <
-            (rhs.hour ?? 0, rhs.minute ?? 0, rhs.second ?? 0)
+        lhs != rhs && (lhs.hour ?? 0, lhs.minute ?? 0, lhs.second ?? 0) < (rhs.hour ?? 0, rhs.minute ?? 0, rhs.second ?? 0)
     }
 }

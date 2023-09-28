@@ -1,0 +1,12 @@
+# Global
+*  @ffried
+
+# Workflow & Deployment related files
+.github/*      @ffried
+.codecov.yml   @ffried
+
+# Project & Source files
+*.swift         @ffried
+/Package*.swift @ffried
+/Sources/*      @ffried
+/Tests/*        @ffried

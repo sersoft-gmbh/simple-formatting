@@ -12,12 +12,8 @@ A collection of simple formatters for Swift using the [ICU4C](https://unicode-or
 
 Add the following dependency to your `Package.swift`:
 ```swift
-.package(url: "https://github.com/sersoft-gmbh/simple-formatting.git", from: "1.0.0"),
+.package(url: "https://github.com/sersoft-gmbh/simple-formatting", from: "0.4.0"),
 ```
-
-## Compatibility
-
--   For Swift as of version 5.5, use version 1.x.y.
 
 ## Usage
 
@@ -39,4 +35,4 @@ If you find a bug / like to see a new feature there are a few ways of helping ou
 
 See [LICENSE](./LICENSE) file.
 
-Copyright &copy; 2022 ser.soft GmbH.
+Copyright &copy; 2023 ser.soft GmbH.

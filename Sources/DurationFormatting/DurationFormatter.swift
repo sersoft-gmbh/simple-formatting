@@ -1,9 +1,10 @@
-#if swift(>=5.7) && canImport(Darwin)
+#if canImport(Darwin)
 import Foundation
 #else
-@preconcurrency import Foundation
+@preconcurrency import Foundation // Locale is not Sendable on Linux
 #endif
-@_implementationOnly import CICUShims
+
+package import CICUShims
 
 public struct DurationFormatter: Sendable {
     public enum Width: Sendable, Hashable {
@@ -11,9 +12,9 @@ public struct DurationFormatter: Sendable {
 
         fileprivate var _cicuFormatWidth: CICUDurationFormatWidth {
             switch self {
-            case .numeric: return .numeric
-            case .short: return .short
-            case .narrow: return .narrow
+            case .numeric: .numeric
+            case .short: .short
+            case .narrow: .narrow
             }
         }
     }
