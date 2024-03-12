@@ -1,0 +1,199 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting",
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/second"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18DurationFormatting14TimeComponentsV6secondSiSgvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "second"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DurationFormatting"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "second"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "second"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Si",
+              "text" : "Int"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/durationformatting\/timecomponents\/second"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://DurationFormatting/documentation/DurationFormatting": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DurationFormatting",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TimeComponents"
+    }
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TimeComponents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TimeComponents",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/timecomponents"
+},
+"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/second": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "second"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/second",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "second",
+  "type" : "topic",
+  "url" : "\/documentation\/durationformatting\/timecomponents\/second"
+}
+}
+}
