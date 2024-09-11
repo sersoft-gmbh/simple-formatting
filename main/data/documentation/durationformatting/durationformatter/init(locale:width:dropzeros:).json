@@ -89,6 +89,10 @@
         "name" : "DurationFormatting"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "DurationFormatter.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/Sources\/DurationFormatting\/DurationFormatter.swift#L26"
+    },
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",

@@ -80,6 +80,10 @@
         "name" : "DurationFormatting"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "DurationFormatter.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/Sources\/DurationFormatting\/DurationFormatter.swift#L48"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",

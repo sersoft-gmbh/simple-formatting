@@ -39,6 +39,10 @@
         "text" : "Width"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "DurationFormatter.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/Sources\/DurationFormatting\/DurationFormatter.swift#L10"
+    },
     "role" : "symbol",
     "roleHeading" : "Enumeration",
     "symbolKind" : "enum",

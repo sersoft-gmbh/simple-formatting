@@ -38,6 +38,10 @@
         "text" : "TimeComponents"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "TimeComponents.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/Sources\/DurationFormatting\/TimeComponents.swift#L10"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",

@@ -38,6 +38,10 @@
         "text" : "DurationFormatter"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "DurationFormatter.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/Sources\/DurationFormatting\/DurationFormatter.swift#L9"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",
