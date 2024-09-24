@@ -1,5 +1,5 @@
-import Foundation
-package import CICUShims
+public import Foundation
+internal import CICUShims
 
 fileprivate extension CICUTimeComponent {
     func value(droppingZero dropZero: Bool) -> Int? {

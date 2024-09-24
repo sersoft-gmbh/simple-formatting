@@ -1,10 +1,10 @@
-#if canImport(Darwin)
-import Foundation
+#if canImport(Darwin) || swift(>=6.0)
+public import Foundation
 #else
-@preconcurrency import Foundation // Locale is not Sendable on Linux
+@preconcurrency public import Foundation // Locale is not Sendable on Linux
 #endif
 
-package import CICUShims
+internal import CICUShims
 
 public struct DurationFormatter: Sendable {
     public enum Width: Sendable, Hashable {
