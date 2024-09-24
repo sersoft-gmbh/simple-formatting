@@ -33,6 +33,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter",
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents"

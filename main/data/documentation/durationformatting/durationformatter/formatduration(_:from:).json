@@ -13,7 +13,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:18DurationFormatting0A9FormatterV06formatA0_4fromSSSgSd_10Foundation4DateVtF",
+    "externalID" : "s:18DurationFormatting0A9FormatterV06formatA0_4fromSSSgSd_20FoundationEssentials4DateVtF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -50,7 +50,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation4DateV",
+        "preciseIdentifier" : "s:20FoundationEssentials4DateV",
         "text" : "Date"
       },
       {
@@ -151,7 +151,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation4DateV",
+              "preciseIdentifier" : "s:20FoundationEssentials4DateV",
               "text" : "Date"
             },
             {
@@ -277,7 +277,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation4DateV",
+      "preciseIdentifier" : "s:20FoundationEssentials4DateV",
       "text" : "Date"
     },
     {

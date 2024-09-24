@@ -33,6 +33,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Operators",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum\/!=(_:_:)"

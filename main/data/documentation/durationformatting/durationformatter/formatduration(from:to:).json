@@ -13,7 +13,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:18DurationFormatting0A9FormatterV06formatA04from2toSSSg10Foundation4DateV_AJtF",
+    "externalID" : "s:18DurationFormatting0A9FormatterV06formatA04from2toSSSg20FoundationEssentials4DateV_AJtF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -41,7 +41,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation4DateV",
+        "preciseIdentifier" : "s:20FoundationEssentials4DateV",
         "text" : "Date"
       },
       {
@@ -58,7 +58,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation4DateV",
+        "preciseIdentifier" : "s:20FoundationEssentials4DateV",
         "text" : "Date"
       },
       {
@@ -134,7 +134,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation4DateV",
+              "preciseIdentifier" : "s:20FoundationEssentials4DateV",
               "text" : "Date"
             },
             {
@@ -159,7 +159,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation4DateV",
+              "preciseIdentifier" : "s:20FoundationEssentials4DateV",
               "text" : "Date"
             },
             {
@@ -276,7 +276,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation4DateV",
+      "preciseIdentifier" : "s:20FoundationEssentials4DateV",
       "text" : "Date"
     },
     {
@@ -293,7 +293,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation4DateV",
+      "preciseIdentifier" : "s:20FoundationEssentials4DateV",
       "text" : "Date"
     },
     {

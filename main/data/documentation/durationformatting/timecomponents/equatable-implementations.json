@@ -32,6 +32,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Operators",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/!=(_:_:)"

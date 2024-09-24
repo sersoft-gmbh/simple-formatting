@@ -13,7 +13,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:18DurationFormatting0A9FormatterV6locale5width9dropZerosAC10Foundation6LocaleV_AC5WidthOSbtcfc",
+    "externalID" : "s:18DurationFormatting0A9FormatterV6locale5width9dropZerosAC20FoundationEssentials6LocaleV_AC5WidthOSbtcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -33,7 +33,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation6LocaleV",
+        "preciseIdentifier" : "s:20FoundationEssentials6LocaleV",
         "text" : "Locale"
       },
       {
@@ -127,7 +127,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation6LocaleV",
+              "preciseIdentifier" : "s:20FoundationEssentials6LocaleV",
               "text" : "Locale"
             },
             {
@@ -303,7 +303,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation6LocaleV",
+      "preciseIdentifier" : "s:20FoundationEssentials6LocaleV",
       "text" : "Locale"
     },
     {

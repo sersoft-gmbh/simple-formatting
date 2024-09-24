@@ -1,4 +1,7 @@
 {
+  "includedArchiveIdentifiers" : [
+    "DurationFormatting"
+  ],
   "interfaceLanguages" : {
     "swift" : [
       {
@@ -42,7 +45,7 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/durationformatting\/durationformatter\/format(_:)-6lty8",
+                "path" : "\/documentation\/durationformatting\/durationformatter\/format(_:)-9dis8",
                 "title" : "func format(DateComponents) -> String?",
                 "type" : "method"
               },
@@ -251,6 +254,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 1
+    "patch" : 2
   }
 }

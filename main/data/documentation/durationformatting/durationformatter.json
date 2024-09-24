@@ -96,12 +96,16 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/init(locale:width:dropZeros:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/dropZeros",
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/locale",
@@ -110,8 +114,10 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/format(_:)-6lty8",
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/format(_:)-9dis8",
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/format(_:)-km59",
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/formatDuration(_:from:)",
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/formatDuration(from:to:)"
@@ -119,6 +125,8 @@
       "title" : "Instance Methods"
     },
     {
+      "anchor" : "Enumerations",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum"
       ],
@@ -246,7 +254,7 @@
   "type" : "topic",
   "url" : "\/documentation\/durationformatting\/durationformatter\/dropzeros"
 },
-"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/format(_:)-6lty8": {
+"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/format(_:)-9dis8": {
   "abstract" : [
 
   ],
@@ -269,7 +277,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation14DateComponentsV",
+      "preciseIdentifier" : "s:20FoundationEssentials14DateComponentsV",
       "text" : "DateComponents"
     },
     {
@@ -286,12 +294,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/format(_:)-6lty8",
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/format(_:)-9dis8",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "format(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/durationformatting\/durationformatter\/format(_:)-6lty8"
+  "url" : "\/documentation\/durationformatting\/durationformatter\/format(_:)-9dis8"
 },
 "doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/format(_:)-km59": {
   "abstract" : [
@@ -380,7 +388,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation4DateV",
+      "preciseIdentifier" : "s:20FoundationEssentials4DateV",
       "text" : "Date"
     },
     {
@@ -435,7 +443,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation4DateV",
+      "preciseIdentifier" : "s:20FoundationEssentials4DateV",
       "text" : "Date"
     },
     {
@@ -452,7 +460,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation4DateV",
+      "preciseIdentifier" : "s:20FoundationEssentials4DateV",
       "text" : "Date"
     },
     {
@@ -499,7 +507,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation6LocaleV",
+      "preciseIdentifier" : "s:20FoundationEssentials6LocaleV",
       "text" : "Locale"
     },
     {
@@ -580,7 +588,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation6LocaleV",
+      "preciseIdentifier" : "s:20FoundationEssentials6LocaleV",
       "text" : "Locale"
     }
   ],

@@ -9,11 +9,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/format(_:)-6lty8"
+    "url" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/format(_:)-9dis8"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:18DurationFormatting0A9FormatterV6formatySSSg10Foundation14DateComponentsVF",
+    "externalID" : "s:18DurationFormatting0A9FormatterV6formatySSSg20FoundationEssentials14DateComponentsVF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -33,7 +33,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation14DateComponentsV",
+        "preciseIdentifier" : "s:20FoundationEssentials14DateComponentsV",
         "text" : "DateComponents"
       },
       {
@@ -109,7 +109,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation14DateComponentsV",
+              "preciseIdentifier" : "s:20FoundationEssentials14DateComponentsV",
               "text" : "DateComponents"
             },
             {
@@ -142,7 +142,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/durationformatting\/durationformatter\/format(_:)-6lty8"
+        "\/documentation\/durationformatting\/durationformatter\/format(_:)-9dis8"
       ],
       "traits" : [
         {
@@ -195,7 +195,7 @@
   "type" : "topic",
   "url" : "\/documentation\/durationformatting\/durationformatter"
 },
-"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/format(_:)-6lty8": {
+"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/format(_:)-9dis8": {
   "abstract" : [
 
   ],
@@ -218,7 +218,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation14DateComponentsV",
+      "preciseIdentifier" : "s:20FoundationEssentials14DateComponentsV",
       "text" : "DateComponents"
     },
     {
@@ -235,12 +235,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/format(_:)-6lty8",
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/format(_:)-9dis8",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "format(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/durationformatting\/durationformatter\/format(_:)-6lty8"
+  "url" : "\/documentation\/durationformatting\/durationformatter\/format(_:)-9dis8"
 }
 }
 }
