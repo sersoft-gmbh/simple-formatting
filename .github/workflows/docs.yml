@@ -25,4 +25,10 @@ jobs:
       repository: ${{ github.event.repository.name }}
       pages-branch: gh-pages
       # This is a workaround since Swift ships ICU headers that aren't aligned with the installed ICU package.
-      container-before-run: apt-get update -qq && apt-get -q install -y --reinstall libicu-dev
+      # Apparently, on recent macOS runners, icu is also not aligned...
+      before-run: |
+        if [ "${IS_IN_CONTAINER:-}" -eq 1 ]; then
+          apt-get update -qq && apt-get -q install -y --reinstall libicu-dev
+        else
+          brew update && brew install icu4c || exit 0
+        fi
