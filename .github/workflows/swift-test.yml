@@ -61,6 +61,9 @@ jobs:
       swift-version-offset: ${{ matrix.swift-version-offset }}
       platform: ${{ matrix.platform }}
       platform-version: ${{ needs.variables.outputs.xcode-platform-version }}
+      # This is a workaround since Swift ships ICU headers that aren't aligned with the installed ICU package.
+      # Apparently, on recent macOS runners, icu is also not aligned...
+      before-run: brew update && brew install icu4c || exit 0
       fail-if-codecov-fails: ${{ fromJson(needs.variables.outputs.fail-if-codecov-fails) }}
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
