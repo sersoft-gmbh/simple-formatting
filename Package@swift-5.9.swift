@@ -65,5 +65,5 @@ let package = Package(
             ],
             swiftSettings: swiftSettings),
     ],
-    cxxLanguageStandard: .cxx14
+    cxxLanguageStandard: .cxx17
 )
