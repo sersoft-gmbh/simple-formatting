@@ -1,0 +1,259 @@
+{
+  "includedArchiveIdentifiers" : [
+    "DurationFormatting"
+  ],
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/durationformatter\/init(locale:width:dropzeros:)",
+                "title" : "init(locale: Locale, width: DurationFormatter.Width, dropZeros: Bool)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/durationformatter\/dropzeros",
+                "title" : "var dropZeros: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/durationformatter\/locale",
+                "title" : "var locale: Locale",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/durationformatter\/width-swift.property",
+                "title" : "var width: DurationFormatter.Width",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/durationformatter\/format(_:)-9dis8",
+                "title" : "func format(DateComponents) -> String?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/durationformatter\/format(_:)-km59",
+                "title" : "func format(TimeComponents) -> String?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/durationformatter\/formatduration(_:from:)",
+                "title" : "func formatDuration(TimeInterval, from: Date) -> String?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/durationformatter\/formatduration(from:to:)",
+                "title" : "func formatDuration(from: Date, to: Date) -> String?",
+                "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/narrow",
+                    "title" : "case narrow",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/numeric",
+                    "title" : "case numeric",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/short",
+                    "title" : "case short",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum",
+                "title" : "DurationFormatter.Width",
+                "type" : "enum"
+              }
+            ],
+            "path" : "\/documentation\/durationformatting\/durationformatter",
+            "title" : "DurationFormatter",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Operators",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/timecomponents\/_(_:_:)-5wr1t",
+                "title" : "static func < (TimeComponents, TimeComponents) -> Bool",
+                "type" : "op"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/timecomponents\/init(datecomponents:)",
+                "title" : "init(dateComponents: DateComponents)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/timecomponents\/init(hour:minute:second:)",
+                "title" : "init(hour: Int?, minute: Int?, second: Int?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/timecomponents\/datecomponents",
+                "title" : "var dateComponents: DateComponents",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/timecomponents\/hour",
+                "title" : "var hour: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/timecomponents\/minute",
+                "title" : "var minute: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/durationformatting\/timecomponents\/second",
+                "title" : "var second: Int?",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'...(_:)-55t9n",
+                    "title" : "static func ... (Self) -> PartialRangeFrom<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'...(_:)-64cz1",
+                    "title" : "static func ... (Self) -> PartialRangeThrough<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'...(_:_:)",
+                    "title" : "static func ... (Self, Self) -> ClosedRange<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'.._(_:)",
+                    "title" : "static func ..< (Self) -> PartialRangeUpTo<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/'.._(_:_:)",
+                    "title" : "static func ..< (Self, Self) -> Range<Self>",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/_(_:_:)-80mjm",
+                    "title" : "static func > (Self, Self) -> Bool",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/_=(_:_:)-4tdxf",
+                    "title" : "static func >= (Self, Self) -> Bool",
+                    "type" : "op"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/_=(_:_:)-adjp",
+                    "title" : "static func <= (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/durationformatting\/timecomponents\/comparable-implementations",
+                "title" : "Comparable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/durationformatting\/timecomponents\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/durationformatting\/timecomponents\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/durationformatting\/timecomponents",
+            "title" : "TimeComponents",
+            "type" : "struct"
+          }
+        ],
+        "path" : "\/documentation\/durationformatting",
+        "title" : "DurationFormatting",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 2
+  }
+}
