@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting",
-        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents",
-        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/Equatable-Implementations"
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents"
       ]
     ]
   },
@@ -426,17 +425,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/durationformatting\/timecomponents\/!=(_:_:)"
-},
-"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/durationformatting\/timecomponents\/equatable-implementations"
 }
 }
 }

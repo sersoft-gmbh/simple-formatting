@@ -57,7 +57,7 @@
     ],
     "remoteSource" : {
       "fileName" : "DurationFormatter.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/Sources\/DurationFormatting\/DurationFormatter.swift#L44"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/blob\/refs\/heads\/main\/Sources\/DurationFormatting\/DurationFormatter.swift#L44"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",

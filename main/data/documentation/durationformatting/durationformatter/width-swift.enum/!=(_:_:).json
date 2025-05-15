@@ -10,8 +10,7 @@
       [
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting",
         "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter",
-        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum",
-        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum\/Equatable-Implementations"
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum"
       ]
     ]
   },
@@ -458,17 +457,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/!=(_:_:)"
-},
-"doc://DurationFormatting/documentation/DurationFormatting/DurationFormatter/Width-swift.enum/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/DurationFormatter\/Width-swift.enum\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/durationformatting\/durationformatter\/width-swift.enum\/equatable-implementations"
 }
 }
 }

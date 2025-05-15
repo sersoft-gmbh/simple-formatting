@@ -48,7 +48,7 @@
     ],
     "remoteSource" : {
       "fileName" : "TimeComponents.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/Sources\/DurationFormatting\/TimeComponents.swift#L11"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/blob\/refs\/heads\/main\/Sources\/DurationFormatting\/TimeComponents.swift#L11"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",

@@ -40,7 +40,7 @@
     ],
     "remoteSource" : {
       "fileName" : "TimeComponents.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/Sources\/DurationFormatting\/TimeComponents.swift#L10"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/blob\/refs\/heads\/main\/Sources\/DurationFormatting\/TimeComponents.swift#L10"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -102,7 +102,7 @@
       "anchor" : "Operators",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)-5wr1t"
+        "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)"
       ],
       "title" : "Operators"
     },
@@ -229,7 +229,7 @@
   "type" : "topic",
   "url" : "\/documentation\/durationformatting\/timecomponents\/equatable-implementations"
 },
-"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/_(_:_:)-5wr1t": {
+"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/_(_:_:)": {
   "abstract" : [
 
   ],
@@ -286,12 +286,12 @@
       "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)-5wr1t",
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "<(_:_:)",
   "type" : "topic",
-  "url" : "\/documentation\/durationformatting\/timecomponents\/_(_:_:)-5wr1t"
+  "url" : "\/documentation\/durationformatting\/timecomponents\/_(_:_:)"
 },
 "doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/dateComponents": {
   "abstract" : [

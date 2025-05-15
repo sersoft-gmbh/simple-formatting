@@ -9,7 +9,7 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)-5wr1t"
+    "url" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -74,7 +74,7 @@
     ],
     "remoteSource" : {
       "fileName" : "TimeComponents.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/Sources\/DurationFormatting\/TimeComponents.swift#L50"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/blob\/refs\/heads\/main\/Sources\/DurationFormatting\/TimeComponents.swift#L50"
     },
     "role" : "symbol",
     "roleHeading" : "Operator",
@@ -178,7 +178,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/durationformatting\/timecomponents\/_(_:_:)-5wr1t"
+        "\/documentation\/durationformatting\/timecomponents\/_(_:_:)"
       ],
       "traits" : [
         {
@@ -231,7 +231,7 @@
   "type" : "topic",
   "url" : "\/documentation\/durationformatting\/timecomponents"
 },
-"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/_(_:_:)-5wr1t": {
+"doc://DurationFormatting/documentation/DurationFormatting/TimeComponents/_(_:_:)": {
   "abstract" : [
 
   ],
@@ -288,12 +288,12 @@
       "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)-5wr1t",
+  "identifier" : "doc:\/\/DurationFormatting\/documentation\/DurationFormatting\/TimeComponents\/_(_:_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "<(_:_:)",
   "type" : "topic",
-  "url" : "\/documentation\/durationformatting\/timecomponents\/_(_:_:)-5wr1t"
+  "url" : "\/documentation\/durationformatting\/timecomponents\/_(_:_:)"
 }
 }
 }
