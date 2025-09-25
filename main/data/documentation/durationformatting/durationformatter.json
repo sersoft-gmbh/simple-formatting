@@ -40,7 +40,7 @@
     ],
     "remoteSource" : {
       "fileName" : "DurationFormatter.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/blob\/refs\/heads\/main\/Sources\/DurationFormatting\/DurationFormatter.swift#L9"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/simple-formatting\/blob\/refs\/heads\/main\/Sources\/DurationFormatting\/DurationFormatter.swift#L4"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -79,7 +79,8 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/DurationFormatting\/s8SendableP"
+        "doc:\/\/DurationFormatting\/s8SendableP",
+        "doc:\/\/DurationFormatting\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -641,6 +642,11 @@
   "title" : "width",
   "type" : "topic",
   "url" : "\/documentation\/durationformatting\/durationformatter\/width-swift.property"
+},
+"doc://DurationFormatting/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/DurationFormatting\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://DurationFormatting/s8SendableP": {
   "identifier" : "doc:\/\/DurationFormatting\/s8SendableP",
