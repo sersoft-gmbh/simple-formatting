@@ -15,10 +15,6 @@ Add the following dependency to your `Package.swift`:
 .package(url: "https://github.com/sersoft-gmbh/simple-formatting", from: "0.4.0"),
 ```
 
-## Usage
-
-_TBD_
-
 ## Documentation
 
 The API is documented using header doc. If you prefer to view the documentation as a webpage, there is an [online version](https://sersoft-gmbh.github.io/simple-formatting) available for you.
@@ -31,8 +27,6 @@ If you find a bug / like to see a new feature there are a few ways of helping ou
 -   If you know how to code (which you probably do), please add a (failing) test and open a PR. We'll try to get your test green ASAP.
 -   If you can't do neither, then open an issue. While this might be the easiest way, it will likely take the longest for the bug to be fixed / feature to be implemented.
 
-## License & Copyright
+## License
 
 See [LICENSE](./LICENSE) file.
-
-Copyright &copy; 2023 ser.soft GmbH.

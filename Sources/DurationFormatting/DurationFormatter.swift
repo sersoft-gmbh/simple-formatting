@@ -1,9 +1,4 @@
-#if canImport(Darwin) || swift(>=6.0)
 public import Foundation
-#else
-@preconcurrency public import Foundation // Locale is not Sendable on Linux
-#endif
-
 internal import CICUShims
 
 public struct DurationFormatter: Sendable {
@@ -32,12 +27,22 @@ public struct DurationFormatter: Sendable {
     }
 
     public func format(_ timeComponents: TimeComponents) -> String? {
+#if compiler(>=6.2)
+        let result = unsafe cicu_formatDuration(timeComponents._cicuTimeComponents(nullingZeros: dropZeros),
+                                                locale.identifier,
+                                                width._cicuFormatWidth)
+#else
         let result = cicu_formatDuration(timeComponents._cicuTimeComponents(nullingZeros: dropZeros),
                                          locale.identifier,
                                          width._cicuFormatWidth)
+#endif
         defer { result.free() }
         guard result.isSuccess else { return nil }
+#if compiler(>=6.2)
+        return unsafe String(cString: result.value)
+#else
         return String(cString: result.value)
+#endif
     }
 
     @inlinable
