@@ -43,7 +43,7 @@ struct DurationFormattingTests {
         (locale: "it_IT", expected: "3h 0min 42s"),
         (locale: "it_CH", expected: "3h 0min 42s"),
         (locale: "fr_CH", expected: CICUMajorVersion > 60 ? "3h 0min 42s" : "3h 0 min 42s"),
-        (locale: "de_CH", expected: CICUMajorVersion > 77 ? "3h, 0 Min. und 42 Sek." : CICUMajorVersion > 60 ? "3 Std., 24 Min. und 42 Sek." : "3 Std., 24 Min. und 42 s"),
+        (locale: "de_CH", expected: CICUMajorVersion > 77 ? "3h, 0 Min. und 42 Sek." : CICUMajorVersion > 60 ? "3 Std., 0 Min. und 42 Sek." : "3 Std., 0 Min. und 42 s"),
     ])
     func partialComponentsNotDroppingZeros(locale: String, expected: String) {
         let formatter = DurationFormatter(locale: Locale(identifier: locale), dropZeros: false)
